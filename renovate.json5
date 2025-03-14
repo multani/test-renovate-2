@@ -4,7 +4,6 @@
   ],
   "dependencyDashboard": true,
 
-
   //"vulnerabilityAlerts": {
     //"labels": ["dependencies", "security"],
     //"enabled": true,
@@ -16,12 +15,4 @@
       //}
     //]
   //},
-    
-    "packageRules": [
-      {
-        "matchManagers": ["gomod"],
-        "matchDepTypes": ["indirect"],
-        "enabled": true,
-      }
-    ]
 }
